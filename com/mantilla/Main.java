@@ -14,7 +14,7 @@ public class Main {
         double longitude = -74.222; //longitude of Lakewood, NJ
         double elevation = 0; //optional elevation
         //use a Valid Olson Database timezone listed in java.util.TimeZone.getAvailableIDs()
-        TimeZone timeZone = TimeZone.getTimeZone("America/New_York");
+        TimeZone timeZone = TimeZone.getTimeZone("Israel/Jerusalem");
         //create the location object
         GeoLocation location = new GeoLocation(locationName, latitude, longitude, elevation, timeZone);
         //create the ZmanimCalendar
