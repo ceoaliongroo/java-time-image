@@ -2,10 +2,11 @@ package com.mantilla;
 
 import net.sourceforge.zmanim.*;
 import net.sourceforge.zmanim.util.*;
+
 import java.util.TimeZone;
 
-public class Main {
 
+public class Main {
 
     public static void main(String[] args) {
         String locationName = "Lakewood, NJ";
